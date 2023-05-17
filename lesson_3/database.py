@@ -1,6 +1,6 @@
 import sqlite3
 
-
+#work with database
 def messages():
     conn = sqlite3.connect('artikles.db')
     cursr = conn.cursor()

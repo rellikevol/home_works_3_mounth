@@ -24,7 +24,7 @@ def time_check(time: str) -> bool:
         if len(a) == 2:
             if a[0].isdigit() and a[1].isdigit():
                 if 23 >= int(a[0]) >= 0:
-                    if 60 >= int(a[1]) >= 0:
+                    if 59 >= int(a[1]) >= 0:
                         return True
     return False
 
